@@ -1,0 +1,60 @@
+<div>
+    <app-navbar></app-navbar>
+</div>
+<div class="bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <app-perfil-lateral></app-perfil-lateral>
+            </div>
+            <div class="col-md-8 my-4 d-flex justify-content-center">
+                <div class="card" style="width: 50rem;">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">INFORMAÇÕES</h5>
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">E-mail</label>
+                                <input type="text" class="form-control" name="contato" id="exampleFormControlInput1"
+                                    [(ngModel)]='postagem.contato'>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Telefone</label>
+                                <input type="text" class="form-control" name="telefone" id="exampleFormControlInput1"
+                                    [(ngModel)]='postagem.telefone'>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Portfólio</label>
+                                <textarea class="form-control" name="portfolio" id="exampleFormControlTextarea1"
+                                    rows="3" [(ngModel)]='postagem.portfolio'></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Modalidade</label>
+                                <input type="text" name="modalidade" class="form-control" id="exampleFormControlInput1"
+                                    [(ngModel)]='postagem.modalidade'>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="text" for="tema">Escolha uma Profissão ou<a routerLink="/cadastro-tema">
+                                        Cadastre
+                                        uma nova</a></label>
+                                <select name="tema" id='tema' [(ngModel)]="idTema" (change)="findByIdTema()"
+                                    class="form-control">
+                                    <option *ngFor="let item of listaTemas" value={{item.id}}>
+                                        {{item.titulo}}
+                                    </option>
+                                </select>
+                            </div>
+
+                        </form>
+                        <a class="btn btn-login" (click)='publicar()'>Salvar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div>
+    <app-footer></app-footer>
+</div>

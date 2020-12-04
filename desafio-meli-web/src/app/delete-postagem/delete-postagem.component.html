@@ -1,0 +1,56 @@
+<div>
+    <app-navbar></app-navbar>
+</div>
+<div class="bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <app-perfil-lateral></app-perfil-lateral>
+            </div>
+            <div class="col-md-8">
+                <div class="card mt-5">
+                    <div class="card-header">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-md-8">
+                                <h5 class="card-title">
+                                    <fa-icon [icon]="faUser"></fa-icon>{{postagem.tema.titulo}}
+                                </h5>
+                                <small></small>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p>
+                            <fa-icon [icon]="faEnvelope"></fa-icon> {{postagem.contato}}
+                        </p>
+                        <p>
+                            <fa-icon [icon]="faPhone"></fa-icon> {{postagem.telefone}}
+                        </p>
+                        <p>
+                            <fa-icon [icon]="faFileSignature"></fa-icon> {{postagem.modalidade}}
+                        </p>
+                        <p>
+                            <fa-icon [icon]="faBook"></fa-icon>
+                        </p>
+                        <small>
+                            {{postagem.portfolio}}
+                        </small>
+                    </div>
+                </div>
+
+                <hr class="mt-4 mb-4">
+
+                <h5 class="text-center">Tem certeza que deseja apagar essa postagem?</h5>
+                <div class="d-flex justify-content-center mt-5">
+                    <button class="btn btn-success mr-3" (click)="btnSim()">Sim</button>
+                    <button class="btn btn-danger" (click)="btnNao()">Não</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div>
+    <app-footer></app-footer>
+</div>
