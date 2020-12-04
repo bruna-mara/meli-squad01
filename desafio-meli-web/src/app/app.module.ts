@@ -9,10 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { FeedComponent } from './feed/feed.component';
-import { PerfilLateralComponent } from './perfil-lateral/perfil-lateral.component';
-import { LoginComponent } from './login/login.component';
-import { CadastroComponent } from './cadastro/cadastro.component';
+
 import { HttpClientModule } from '@angular/common/http';
 import { MeuPerfilComponent } from './meu-perfil/meu-perfil.component';
 import { PostTemaComponent } from './post-tema/post-tema.component';
@@ -22,7 +19,7 @@ import { DeletePostagemComponent } from './delete-postagem/delete-postagem.compo
 import { DeleteTemaComponent } from './delete-tema/delete-tema.component';
 import { SobreNosComponent } from './sobre-nos/sobre-nos.component';
 import { AlertasComponent } from './alertas/alertas.component';
-import { PesquisaComponent } from './pesquisa/pesquisa.component';
+
 
 
 @NgModule({
@@ -31,10 +28,8 @@ import { PesquisaComponent } from './pesquisa/pesquisa.component';
     HomeComponent,
     NavbarComponent,
     FooterComponent,
-    FeedComponent,
-    PerfilLateralComponent,
-    LoginComponent,
-    CadastroComponent,
+  
+   
     MeuPerfilComponent,
     PostTemaComponent,
     PutPostagemComponent,
@@ -42,8 +37,8 @@ import { PesquisaComponent } from './pesquisa/pesquisa.component';
     DeletePostagemComponent,
     DeleteTemaComponent,
     SobreNosComponent,
-    AlertasComponent,
-    PesquisaComponent
+    AlertasComponent
+   
   ],
   imports: [
     BrowserModule,
