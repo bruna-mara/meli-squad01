@@ -8,7 +8,9 @@ import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+
 import { LoginComponent } from './login/login.component';
+
 import { HttpClientModule } from '@angular/common/http';
 import { MeuPerfilComponent } from './meu-perfil/meu-perfil.component';
 import { PostTemaComponent } from './post-tema/post-tema.component';
@@ -19,7 +21,6 @@ import { DeleteTemaComponent } from './delete-tema/delete-tema.component';
 import { SobreNosComponent } from './sobre-nos/sobre-nos.component';
 import { AlertasComponent } from './alertas/alertas.component';
 import { NavbarMeliComponent } from './navbar-meli/navbar-meli.component';
-
 
 
 @NgModule({
@@ -38,7 +39,6 @@ import { NavbarMeliComponent } from './navbar-meli/navbar-meli.component';
     SobreNosComponent,
     AlertasComponent,
     NavbarMeliComponent,
-  
   ],
   imports: [
     BrowserModule,
