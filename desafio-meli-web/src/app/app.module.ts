@@ -8,7 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { LoginComponent } from './login/login.component';
+
 import { HttpClientModule } from '@angular/common/http';
 import { MeuPerfilComponent } from './meu-perfil/meu-perfil.component';
 import { PostTemaComponent } from './post-tema/post-tema.component';
@@ -21,14 +21,13 @@ import { AlertasComponent } from './alertas/alertas.component';
 import { NavbarMeliComponent } from './navbar-meli/navbar-meli.component';
 
 
-
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     NavbarComponent,
     FooterComponent,
-    LoginComponent,
+
     MeuPerfilComponent,
     PostTemaComponent,
     PutPostagemComponent,
@@ -38,7 +37,6 @@ import { NavbarMeliComponent } from './navbar-meli/navbar-meli.component';
     SobreNosComponent,
     AlertasComponent,
     NavbarMeliComponent,
-  
   ],
   imports: [
     BrowserModule,

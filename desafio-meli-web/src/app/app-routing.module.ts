@@ -13,7 +13,9 @@ import { SobreNosComponent } from './sobre-nos/sobre-nos.component';
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
+ 
   { path: 'login', component: LoginComponent },
+
   { path: 'meu-perfil', component: MeuPerfilComponent },
   { path: 'cadastro-tema', component: PostTemaComponent },
   { path: 'editar-tema/:id', component: PutTemaComponent },
@@ -21,7 +23,6 @@ const routes: Routes = [
   { path: 'editar-postagem/:id', component: PutPostagemComponent },
   { path: 'deletar-postagem/:id', component: DeletePostagemComponent },
   { path: 'sobre-nos', component: SobreNosComponent },
- 
 
 ];
 
