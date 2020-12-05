@@ -1,14 +1,20 @@
 .bg {
-    background: white;
+    background: #CCCCCC;
 }
 
 .navbar{
-    background-color: rgba(255,230,0,0.7);
+    background-color: rgb(255,230,0);
+}
+
+.{
+    text-decoration-color: #2D3277;
+    font-weight: b;
 }
 
 .parallax {
     background-image: url(https://f.i.uol.com.br/fotografia/2020/03/17/15844843305e714feab8e1d_1584484330_1x1_xl.jpg);  
-    min-height: 450px;
+    background-color: white;
+    min-height: 700px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
