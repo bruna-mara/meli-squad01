@@ -9,8 +9,6 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
-import { LoginComponent } from './login/login.component';
-
 import { HttpClientModule } from '@angular/common/http';
 import { MeuPerfilComponent } from './meu-perfil/meu-perfil.component';
 import { PostTemaComponent } from './post-tema/post-tema.component';
@@ -29,7 +27,7 @@ import { NavbarMeliComponent } from './navbar-meli/navbar-meli.component';
     HomeComponent,
     NavbarComponent,
     FooterComponent,
-    LoginComponent,
+
     MeuPerfilComponent,
     PostTemaComponent,
     PutPostagemComponent,

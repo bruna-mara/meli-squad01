@@ -1,5 +1,5 @@
 .page-footer {
-  background-color: rgba(246, 154, 55, 0.88);
+  background-color:#CCCCCC;
 }
 
 ul.social-network {
@@ -20,13 +20,14 @@ ul.social-network li {
 }
 
 .faFacebook:hover {
-  color: #BEBEBE;
+  color: #2D3277;
 }
 
 .faLinkedin:hover {
-  color: #BEBEBE;
+  color: #2D3277;
 }
 
 .faInstagram:hover {
-  color: #BEBEBE;
+  color: #2D3277;
 }
+
