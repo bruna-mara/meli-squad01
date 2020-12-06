@@ -4,45 +4,21 @@ import { FormsModule } from '@angular/forms';
 import { ModalModule } from 'ngx-bootstrap/modal';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
-import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-
-import { HttpClientModule } from '@angular/common/http';
-import { MeuPerfilComponent } from './meu-perfil/meu-perfil.component';
-import { PostTemaComponent } from './post-tema/post-tema.component';
-import { PutPostagemComponent } from './put-postagem/put-postagem.component';
-import { PutTemaComponent } from './put-tema/put-tema.component';
-import { DeletePostagemComponent } from './delete-postagem/delete-postagem.component';
-import { DeleteTemaComponent } from './delete-tema/delete-tema.component';
-import { SobreNosComponent } from './sobre-nos/sobre-nos.component';
-import { AlertasComponent } from './alertas/alertas.component';
 import { NavbarMeliComponent } from './navbar-meli/navbar-meli.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
-    NavbarComponent,
     FooterComponent,
-
-    MeuPerfilComponent,
-    PostTemaComponent,
-    PutPostagemComponent,
-    PutTemaComponent,
-    DeletePostagemComponent,
-    DeleteTemaComponent,
-    SobreNosComponent,
-    AlertasComponent,
     NavbarMeliComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FontAwesomeModule,
-    HttpClientModule,
     FormsModule,
     ModalModule.forRoot()
   ],

@@ -1,33 +1,32 @@
 .page-footer {
-  background-color:#CCCCCC;
-}
-
-ul.social-network {
-  list-style: none;
-  display: inline;
-  padding: 0;
-}
-
-ul.social-network li {
-  display: inline;
-  margin: 0;
-  padding: 5px;
-}
-
-.faFacebook, .faLinkedin, .faInstagram {
-  color: white;
-  margin-top: 10px;
-}
-
-.faFacebook:hover {
-  color: #2D3277;
-}
-
-.faLinkedin:hover {
-  color: #2D3277;
-}
-
-.faInstagram:hover {
-  color: #2D3277;
-}
-
+    background-color:#CCCCCC;
+  }
+  
+  ul.social-network {
+    list-style: none;
+    display: inline;
+    padding: 0;
+  }
+  
+  ul.social-network li {
+    display: inline;
+    margin: 0;
+    padding: 5px;
+  }
+  
+  .faFacebook, .faLinkedin, .faInstagram {
+    color: white;
+    margin-top: 10px;
+  }
+  
+  .faFacebook:hover {
+    color: #2D3277;
+  }
+  
+  .faLinkedin:hover {
+    color: #2D3277;
+  }
+  
+  .faInstagram:hover {
+    color: #2D3277;
+  }
