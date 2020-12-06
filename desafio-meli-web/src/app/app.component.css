@@ -91,3 +91,7 @@
 .carousel-item{
     min-height: 400px;
 }
+
+.googlefonts{
+    font-family: 'Poppins', sans-serif;
+}
