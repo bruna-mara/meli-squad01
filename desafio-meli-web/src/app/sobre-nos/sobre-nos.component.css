@@ -7,7 +7,7 @@
 }
 
 .parallax {
-    background-image: url(https://f.i.uol.com.br/fotografia/2020/03/17/15844843305e714feab8e1d_1584484330_1x1_xl.jpg);  
+    background-image: url(/assets/logo-meli.png);  
     min-height: 700px;
     background-attachment: fixed;
     background-position: center;
