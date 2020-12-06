@@ -1,23 +1,26 @@
 
 <div class="container-fluid p-0">
 <!--NAVBAR-->
-<nav class="navbar navbar navbar-expand-lg" >
+<nav class="navbar navbar fixed-top navbar-expand-lg">
     <a class="navbar-brand" href="#">
       <img src="https://exame.com/wp-content/uploads/2020/08/como-vender-no-mercado-livre-passo-a-passo-1.jpg" width="150" height="90" alt="">
     </a>
     <div class="container justify-content-center font-weight-bold">
     <ul class="navbar-nav text mr-auto mt-2 mt-lg-0">
         <li class="nav-item active mr-5">
-          <a class="nav-link font-weight-bold" href="#">Home <span class="sr-only">(Página atual)</span></a>
+          <a class="nav-link font-weight-bold" href="#missao">Missão<span class="sr-only">(Página atual)</span></a>
         </li>
         <li class="nav-item mr-5">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#desafio">Desafio</a>
         </li>
         <li class="nav-item mr-5">
-          <a class="nav-link" href="#">Desativado</a>
+          <a class="nav-link" href="#solucao">Solução</a>
         </li>
         <li class="nav-item active mr-5">
-            <a class="nav-link font-weight-bold" href="#">Home <span class="sr-only">(Página atual)</span></a>
+            <a class="nav-link font-weight-bold" href="#aplicacao">Aplicação<span class="sr-only">(Página atual)</span></a>
+          </li>
+          <li class="nav-item active mr-5">
+            <a class="nav-link font-weight-bold" href="#quem">Quem Somos<span class="sr-only">(Página atual)</span></a>
           </li>
       </ul>
     </div>
@@ -48,15 +51,17 @@
 
             Acreditamos que, quando usada pra o bem, a tecnologia pode criar soluções inovadoras para melhorar a qualidade de vida de todos os usuários. Este é o nosso propósito ao participar do desafio lançado pelo Mercado Livre. Você topa?  </p>
             <p class="font-weight-bold">Então, vamos entender o problema!</p>
-                <!--vídeo1-->
-    <div class="d-flex justify-content-center w-100" style="background-color:#cccccc; ">
+    <!--vídeo1-->
+    <!--id missao-->
+    <div id="missao" class="d-flex justify-content-center w-100" style="background-color:#cccccc; ">
         <iframe width="800" height="500" style="padding: 5px; " src="https://www.youtube.com/embed/eVtuymny1Ug" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     </div>
 
 
     <!--CAROUSEL-->
-    <h1 class="text-center p-5" style="background-color:rgb(204, 204, 204); color: #2D3277;">COMO IDENTIFICAMOS O PROBLEMA?</h1>
+    <!--id desafio -->
+    <h1 id="desafio" class="text-center p-5" style="background-color:rgb(204, 204, 204); color: #2D3277;">COMO IDENTIFICAMOS O PROBLEMA?</h1>
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -103,11 +108,12 @@
       </div>
 
       <!--vídeos final-->
+      <!--id solucao-->
      
-        <div class="container-fluid texto-pos-card" style="background-color: #ffe600ab;">
+        <div id="solucao" class="container-fluid texto-pos-card" style="background-color: #ffe600ab;">
             <h1 class="mt-0 text-center p-4" style="color: #2D3277;">NOVOS TEMPOS, NOVOS MÉTODOS, NOVO MELI. </h1> 
     
-            <div class="row  ">
+            <div class="row">
                 <div class="col-md-6 col-12 d-flex flex-column justify-content-center">
                 <h3 class="criando" style="color: #2D3277">Criando soluções</h3>
                 <h4 class="text-white"> Adotar uma cultura inovadora traz uma série de benefícios que envolvem tanto o ambiente interno da empresa quanto o público externo e o consumidor.
@@ -118,21 +124,23 @@
                 </div>    
             
                 <div class="col-md-6 col-12 text-justify">
-                    <iframe width="600" height="400" src="https://www.youtube.com/embed/YSM5LAwOyAI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/YSM5LAwOyAI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
            
               
-      </div>
+        </div>
       
-                <div class="experencia p-0">
+        <div class="experencia p-0">
         <div class="row text-justify p-5 mt-0" style="background-color:#cccccc">
             <div class="col-md-6 text-justify">
-              <iframe width="600" height="400" src="https://www.youtube.com/embed/XikD1s8Y5EQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        
-            </div>
-          
-            <div class="col-md-6">
+              <iframe width="100%" height="400" src="https://www.youtube.com/embed/XikD1s8Y5EQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>        
+         </div>
+
+          <!--id aplicacao-->
+            <div id="aplicacao"  class="col-md-6">
                 <h3>A importância da experiência do usuário</h3>
                   <p>Segundo o conteúdo disponível na <a href="https://www.hostinger.com.br/tutoriais/ux-o-que-e-user-experience/#:~:text=O%20UX%20%C3%A9%20importante%20porque,melhora%20dos%20produtos%20e%20servi%C3%A7os." target="_blank">Hostinger Tutoriais</a> , a UX (User Experience) é importante porque trabalha para que os clientes se sintam bem sempre. <br> As consequências disso é que dessa forma naturalmente os clientes permanecem mais tempo com os serviços, são mais receptivos a upgrades e novas compras, propagam a marca para conhecidos e colaboram para a melhora dos produtos e serviços.
                   </p>                
@@ -144,7 +152,8 @@
 
 
     <!--TIME-->
-    <div class="jumbotron jumbotron my-1">
+    <!--quem-->
+    <div id="quem" class="jumbotron jumbotron my-1">
         <h1 class="text-center cor-fonte font-weight-bold">Nosso Time</h1>
         <div class="container my-1">
             <div class="row justify-content-center">
