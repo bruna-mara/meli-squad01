@@ -23,7 +23,20 @@ export class AppComponent implements OnInit {
     window.scroll(0, 0)
   }
 
-  voltarAoTopo() {
+  missao() {
+    window.scroll(0, 600)
 
+  }
+  desafio() {
+    window.scroll(0, 1450)
+  }
+  solucao() {
+    window.scroll(0,2205)
+  }
+  aplicacao() {
+    window.scroll(0, 2800)
+  }
+  quemsomos(){
+    window.scroll(0, 3450)
   }
 }
