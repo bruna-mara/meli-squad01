@@ -23,6 +23,10 @@ export class AppComponent implements OnInit {
     window.scroll(0, 0)
   }
 
+  home() {
+    window.scroll(0, 0)
+
+  }
   missao() {
     window.scroll(0, 600)
 
